@@ -3886,7 +3886,7 @@ footer {
         }
 
         a {
-          color: $black;
+          color: #ffffff;
 
           i {
             font-size: 24px;
@@ -4030,7 +4030,7 @@ footer {
       li {
         opacity: 0.8;
         transition: 0.2s;
-        color: $black;
+        color: #ffffff;
 
         &:hover {
           opacity: 1;
@@ -4137,7 +4137,8 @@ footer {
 
     &.gym {
       // background-color: $black;
-      border-top: 1px solid $orange;
+      // border-top: 1px solid $orange;
+      background: #000 !important;
     }
   }
 
@@ -7466,6 +7467,7 @@ yoga-theme css end
     .footer-lists {
       li {
         a {
+          color: #ffffff;
           &:hover {
             color: $color-blue;
           }
@@ -20752,7 +20754,7 @@ footer {
         a {
           font-family: "Source Sans Pro", sans-serif;
           font-size: 16px;
-
+          color: #ffffff;
           &:hover {
             font-weight: bold !important;
           }
@@ -20764,7 +20766,7 @@ footer {
   .para-address {
     margin-bottom: 10px;
     font-size: 16px;
-
+    color: #ffffff;
     strong {
       font-family: "klavika-bold", sans-serif;
     }
@@ -20781,7 +20783,7 @@ footer {
       font-weight: 300;
       font-size: 16px;
       font-family: "Source Sans Pro", sans-serif;
-      color: $black;
+      color: #ffffff;
 
       &:hover {
         color: $orange;

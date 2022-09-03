@@ -11895,7 +11895,7 @@ footer {
       footer .logo-sec .footer-social .footer-social-list:last-child {
         padding-right: 0; }
       footer .logo-sec .footer-social .footer-social-list a {
-        color: #000000; }
+        color: #ffffff; }
         footer .logo-sec .footer-social .footer-social-list a i {
           font-size: 24px; }
           @media (max-width: 992px) {
@@ -11981,7 +11981,7 @@ footer {
   footer .footer-lists.op-text li {
     opacity: 0.8;
     transition: 0.2s;
-    color: #000000; }
+    color: #ffffff; }
     footer .footer-lists.op-text li:hover {
       opacity: 1;
       transition: 0.2s; }
@@ -12031,7 +12031,7 @@ footer {
       margin-right: 15px;
       opacity: 0.051; }
   footer.footer2.gym {
-    border-top: 1px solid #f0494b; }
+    background: #000 !important; }
   footer.dark {
     background-image: linear-gradient(var(--dark), var(--light)) !important; }
     footer.dark.app2 {
@@ -14063,8 +14063,10 @@ yoga-theme css end
   letter-spacing: 0;
   color: #9c9c9c; }
 
-.agencyfooter .footer-lists li a:hover {
-  color: #4a71ef; }
+.agencyfooter .footer-lists li a {
+  color: #ffffff; }
+  .agencyfooter .footer-lists li a:hover {
+    color: #4a71ef; }
 
 .agencyfooter .footer-social .footer-social-list a:hover {
   color: #4a71ef; }
@@ -22635,13 +22637,15 @@ footer.saas1 h5 {
 
 .footer2 .footer-contant .footer-lists li a {
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 16px; }
+  font-size: 16px;
+  color: #ffffff; }
   .footer2 .footer-contant .footer-lists li a:hover {
     font-weight: bold !important; }
 
 .footer2 .para-address {
   margin-bottom: 10px;
-  font-size: 16px; }
+  font-size: 16px;
+  color: #ffffff; }
   .footer2 .para-address strong {
     font-family: "klavika-bold", sans-serif; }
   .footer2 .para-address i {
