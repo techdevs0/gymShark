@@ -1,0 +1,36 @@
+@import "~bootstrap/scss/bootstrap";
+
+
+// p,
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// h6,
+// .h1,
+// .h2,
+// .h3,
+// .h4,
+// .h5,
+// .h6 {
+//   margin-bottom: 0 !important;
+// }
+
+
+@import "assets/scss/mixin";
+@import "assets/scss/common";
+@import "assets/scss/footer";
+@import "assets/scss/rooms";
+@import "assets/scss/_flatPikr";
+@import "assets/scss/_modalDialog";
+
+.accordian-flex-column {
+    flex-direction: column;
+}
+
+.accordian-class-custom {
+    flex-basis: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
